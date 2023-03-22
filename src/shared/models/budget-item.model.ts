@@ -1,6 +1,6 @@
 export class BudgetItem {
-  public description: string = "";
-  public amount: number = 0;
+  public description: string;
+  public amount: number;
 
   constructor(description: string, amount: number) {
     this.description = description;
